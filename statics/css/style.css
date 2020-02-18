@@ -1,0 +1,23 @@
+.container-1{
+    border: 0.5px solid rgb(0, 0, 0);
+    width: 75%;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.flex-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-box-container img {
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgb(0, 0, 0.7); /* https://www.cssmatic.com/box-shadow */
+}
+
+.pad{
+    padding: 10px;
+}
